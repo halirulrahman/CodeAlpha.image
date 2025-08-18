@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Gallery</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Image Gallery</h1>
+
+  <!-- Category Buttons -->
+  <div class="buttons">
+    <button class="filter-btn active" data-category="all">All</button>
+    <button class="filter-btn" data-category="bike">bike</button>
+    <button class="filter-btn" data-category="car">Car</button>
+    <button class="filter-btn" data-category="flight">Flight</button>
+  </div>
+
+  <!-- Gallery -->
+  <div class="gallery">
+    <img src="b1.jpg" alt="Bike 1" data-category="bike">
+    <img src="c1.jpg" alt="Car 1" data-category="car">
+     <img src="f1.jpg" alt="Flight 1" data-category="flight">
+    <img src="b2.jpg" alt="Bike 2" data-category="bike">
+    <img src="c2.jpg" alt="Car 2" data-category="car">
+    <img src="f2.jpg" alt="Flight 2" data-category="flight">
+    <img src="b3.jpg" alt="Bike 3" data-category="bike">
+    <img src="c3.jpg" alt="Car 3" data-category="car">
+    <img src="f3.jpg" alt="Flight 3" data-category="flight">
+    <img src="c4.jpg" alt="Car 4" data-category="car">
+    <img src="f4.jpg" alt="Flight 4" data-category="flight">
+     <img src="b4.jpg" alt="Bike 4" data-category="bike">
+
+  </div>
+  <div class="lightbox" id="lightbox">
+    <span id="closeBtn">&times;</span>
+    <img id="lightbox-img" src="">
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
